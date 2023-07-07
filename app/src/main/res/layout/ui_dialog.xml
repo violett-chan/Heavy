@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/dialogEntryEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Подходов"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/dialogWeightEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Вес в кг."
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toStartOf="@+id/dialogEntryEditText"
+        app:layout_constraintTop_toBottomOf="@+id/dialogEntryEditText" />
+
+    <EditText
+        android:id="@+id/dialogRetryEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Повторений"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toStartOf="@+id/dialogWeightEditText"
+        app:layout_constraintTop_toBottomOf="@+id/dialogWeightEditText" />
+</androidx.constraintlayout.widget.ConstraintLayout>

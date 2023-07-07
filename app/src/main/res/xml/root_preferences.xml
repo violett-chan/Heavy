@@ -1,0 +1,6 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="Приложение для тренировок v0.1b">
+
+    </PreferenceCategory>
+</PreferenceScreen>
